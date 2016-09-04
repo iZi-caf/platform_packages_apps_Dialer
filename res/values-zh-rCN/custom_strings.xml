@@ -17,6 +17,25 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
+  <string name="nearby_places">附近的位置</string>
+  <string name="people">联系人</string>
   <!-- Number lookup -->
+  <string name="lookup_settings_label">电话号码查询</string>
+  <string name="lookup_settings_description">查找未知的电话号码</string>
+  <string name="enable_forward_lookup_title">正向查询</string>
+  <string name="enable_forward_lookup_summary">在拨号器搜索时显示附近地点</string>
+  <string name="enable_people_lookup_title">人物查询</string>
+  <string name="enable_people_lookup_summary">在拨号器中搜索时显示在线人名搜索结果</string>
+  <string name="enable_reverse_lookup_title">反向查询</string>
+  <string name="enable_reverse_lookup_summary">为未知来电查找人名或地点信息</string>
+  <string name="forward_lookup_provider_title">正向查询提供商</string>
+  <string name="people_lookup_provider_title">人名查询提供商</string>
+  <string name="reverse_lookup_provider_title">反向查询提供商</string>
   <!-- In call vibration features -->
+  <string name="incall_vibration_category_title">来电震动</string>
+  <string name="incall_vibrate_outgoing_title">接通时振动</string>
+  <string name="incall_vibrate_call_waiting_title">呼叫等待时震动</string>
+  <string name="incall_vibrate_hangup_title">通话结束时震动</string>
+  <string name="incall_vibrate_45_title">每分钟震动</string>
+  <string name="incall_vibrate_45_summary">呼出通话达到每分钟的 45 秒时震动</string>
 </resources>

@@ -17,6 +17,25 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
+  <string name="nearby_places">Κοντινά μέρη</string>
+  <string name="people">Άτομα</string>
   <!-- Number lookup -->
+  <string name="lookup_settings_label">Αναζήτηση τηλεφωνικού αριθμού</string>
+  <string name="lookup_settings_description">Αναζήτηση γιά άγνωστους αριθμούς τηλεφώνου</string>
+  <string name="enable_forward_lookup_title">Προωθημένη αναζήτηση</string>
+  <string name="enable_forward_lookup_summary">Εμφάνιση κοντινών τοποθεσιών κατά την αναζήτηση στην εφαρμογή τηλεφώνου</string>
+  <string name="enable_people_lookup_title">Αναζήτηση ατόμων</string>
+  <string name="enable_people_lookup_summary">Εμφάνιση δικτυακών αποτελεσμάτων για τα άτομα κατά την αναζήτηση στην εφαρμογή του τηλεφώνου</string>
+  <string name="enable_reverse_lookup_title">Αντίστροφη αναζήτηση</string>
+  <string name="enable_reverse_lookup_summary">Αναζήτηση πληροφοριών σχετικά με το άτομο ή την τοποθεσία για άγνωστους αριθμούς στις εισερχόμενες κλήσεις</string>
+  <string name="forward_lookup_provider_title">Πάροχος προωθημένης αναζήτησης</string>
+  <string name="people_lookup_provider_title">Πάροχος αναζήτησης ατόμων</string>
+  <string name="reverse_lookup_provider_title">Πάροχος αντίστροφης αναζήτησης</string>
   <!-- In call vibration features -->
+  <string name="incall_vibration_category_title">Δόνηση κατά την κλήση</string>
+  <string name="incall_vibrate_outgoing_title">Δόνηση στην απάντηση</string>
+  <string name="incall_vibrate_call_waiting_title">Δόνηση στην αναμονή</string>
+  <string name="incall_vibrate_hangup_title">Δόνηση στο κλείσιμο</string>
+  <string name="incall_vibrate_45_title">Δόνηση κάθε 1 λεπτό</string>
+  <string name="incall_vibrate_45_summary">Δόνηση στο 45ο δευτερόλεπτο κάθε λεπτού κατά τη διάρκεια εξερχόμενων κλήσεων</string>
 </resources>

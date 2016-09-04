@@ -196,6 +196,8 @@
   <!-- Menu item used to show all calls in the call log. [CHAR LIMIT=30] -->
   <string name="menu_show_all_calls">Εμφάνιση όλων</string>
   <!-- Menu items for dialpad options as part of Pause and Wait ftr [CHAR LIMIT=30] -->
+  <string name="menu_add_to_4g_conference_call">Προσθήκη σε 4G κλήση συνδιάσκεψης</string>
+  <string name="menu_4g_conference_call">Κλήση διάσκεψης 4G</string>
   <string name="add_2sec_pause">Προσθήκη παύσης 2 δευτερολέπτων</string>
   <string name="add_wait">Προσθήκη αναμονής</string>
   <!-- Label for the dialer app setting page [CHAR LIMIT=30]-->
@@ -233,11 +235,17 @@
   <!-- Title for missed video call in call details screen [CHAR LIMIT=60] -->
   <string name="type_missed_video">Αναπάντητη βιντεοκλήση</string>
   <!-- Title for incoming 4G voice call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_incoming_volte">Εισερχόμενη φωνητική κλήση 4G</string>
   <!-- Title for incoming 4G video call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_incoming_volte_video">Εισερχόμενη κλήση βίντεο 4G</string>
   <!-- Title for outgoing 4G voice call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_outgoing_volte">Εξερχόμενη κλήση φωνής 4G</string>
   <!-- Title for incoming 4G video call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_outgoing_volte_video">Εξερχόμενη κλήση βίντεο 4G</string>
   <!-- Title for missed 4G voice call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_missed_volte">Αναπάντητη κλήση φωνής 4G</string>
   <!-- Title for missed 4G video call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_missed_volte_video">Αναπάντητη κλήση βίντεο 4G</string>
   <!-- Title for voicemail details screen -->
   <string name="type_voicemail">Αυτόματος τηλεφωνητής</string>
   <!-- Description for incoming calls going to voice mail vs. not -->
@@ -331,6 +339,7 @@
   <!-- The title of a dialog that displays the IMEI of the phone -->
   <string name="imei">Αριθμός ΙΜΕΙ</string>
   <!-- The title of a dialog that displays the MEID of the CDMA phone -->
+  <string name="meid">MEID</string>
   <!-- Dialog text displayed when loading a phone number from the SIM card for speed dial -->
   <string name="simContacts_emptyLoading">Φόρτωση από κάρτα SIM…</string>
   <!-- Dialog title displayed when loading a phone number from the SIM card for speed dial -->
@@ -353,7 +362,9 @@
   <!-- String resource for the font-family to use for the full call history footer
          Do not translate. -->
   <!-- Text displayed when the list of incoming calls is empty -->
+  <string name="recentIncoming_empty">Δεν υπάρχουν εισερχόμενες κλήσεις.</string>
   <!-- Text displayed when the list of outgoing calls is empty -->
+  <string name="recentOutgoing_empty">Δεν υπάρχουν εξερχόμενες κλήσεις.</string>
   <!-- Text displayed when the list of missed calls is empty -->
   <string name="recentMissed_empty">Δεν υπάρχουν αναπάντητες κλήσεις.</string>
   <!-- Text displayed when the list of voicemails is empty -->
@@ -543,6 +554,7 @@
   <string name="voicemail_play_start_pause">Έναρξη ή παύση αναπαραγωγής.</string>
   <!-- Delimeter used between each item in a textual list; for example "Alpha, Beta".
          [CHAR LIMIT=3] -->
+  <string name="list_delimeter">", "</string>
   <!-- Dialer settings related strings-->
   <!-- Title for "Display options" category, which controls how contacts are shown.
          [CHAR LIMIT=40] -->
@@ -596,5 +608,31 @@
   <string name="permission_place_call">Για να πραγματοποιήσετε κλήση,\n ενεργοποιήστε την άδεια Τηλεφώνου.</string>
   <!-- Shown as a message that notifies the user that the Phone app cannot write to system settings, which is why the system settings app is being launched directly instead.-->
   <string name="toast_cannot_write_system_settings">Η εφαρμογή \"Τηλέφωνο\" δεν έχει άδεια εγγραφής στις ρυθμίσεις συστήματος.</string>
+  <string name="call_log_show_all_slots">Όλες οι SIM</string>
+  <string name="call_log_all_calls_header">Όλες οι κλήσεις</string>
+  <string name="calllog_search_hint">"Αναζήτηση αρχείου κλήσεων"</string>
+  <string name="add_to_white_list">Προσθέσετε στη λευκή λίστα</string>
+  <string name="add_to_black_list">Προσθέσετε στη μαύρη λίστα</string>
+  <string name="remove_from_black_list">Αφαιρέστε από τη μαύρη λίστα</string>
+  <string name="remove_from_white_list">Αφαιρέστε από λευκή λίστα</string>
+  <string name="firewall_remove_success">Καταργήθηκε με επιτυχία</string>
   <!--  for speed dial -->
+  <string name="speed_dial_settings">Ρυθμίσεις ταχείας κλήσης</string>
+  <string name="speed_dial_not_set">(δεν έχει οριστεί)</string>
+  <string name="speed_dial_replace">Αντικατάσταση</string>
+  <string name="speed_dial_delete">Διαγραφή</string>
+  <string name="speed_dial_unassigned_dialog_title">Μη εκχωρημένο πλήκτρο</string>
+  <string name="speed_dial_unassigned_dialog_message">Καμία ενέργεια ταχείας κλήσης δεν έχει εκχωρηθεί στο πλήκτρο \'<xliff:g id="number">%s</xliff:g>\'. Θέλετε να ορίσετε μια ενέργεια τώρα;</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Για να χρησιμοποιήσετε την ταχεία κλήση, πρώτα απενεργοποιήστε την λειτουργία πτήσης.</string>
+  <string name="yes">Ναι</string>
+  <string name="no">\'Οχι</string>
+  <string name="input_number">Αριθμός εισόδου</string>
+  <string name="speed_dial_cancel">Ακύρωση</string>
+  <string name="speed_dial_ok">ΟΚ</string>
+  <string name="call_data_info_label">Χρονόμετρο χρήσης κλήσεων/δεδομένων</string>
+  <string name="call_data_info_description">Χρόνος χρήσης κλήση φωνής και δεδομένων χρόνου χρήσης</string>
+  <string name="alert_call_over_wifi">Θα γίνουν κλήσεις μέσω Wi-Fi.</string>
+  <string name="alert_call_no_cellular_coverage">Δεν υπάρχει διαθέσιμο δίκτυο κινητής τηλεφωνίας. Συνδεθείτε με διαθέσιμο Wi-Fi για να πραγματοποιείτε κλήσεις.</string>
+  <string name="alert_user_connect_to_wifi_for_call">Συνδεθείτε με Wi-Fi για να πραγματοποιείτε κλήσεις.</string>
+  <string name="video_call">Βιντεοκλήσεις</string>
 </resources>

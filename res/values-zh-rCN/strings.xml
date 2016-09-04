@@ -195,6 +195,8 @@
   <!-- Menu item used to show all calls in the call log. [CHAR LIMIT=30] -->
   <string name="menu_show_all_calls">显示所有通话</string>
   <!-- Menu items for dialpad options as part of Pause and Wait ftr [CHAR LIMIT=30] -->
+  <string name="menu_add_to_4g_conference_call">添加到 4g 会议呼叫</string>
+  <string name="menu_4g_conference_call">4 G 电话会议</string>
   <string name="add_2sec_pause">延长暂停时间2秒</string>
   <string name="add_wait">延长等待时间</string>
   <!-- Label for the dialer app setting page [CHAR LIMIT=30]-->
@@ -234,12 +236,15 @@
   <!-- Title for incoming 4G voice call in call details screen [CHAR LIMIT=60] -->
   <string name="type_incoming_volte">4G语音通话来电</string>
   <!-- Title for incoming 4G video call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_incoming_volte_video">4 G 视频来电</string>
   <!-- Title for outgoing 4G voice call in call details screen [CHAR LIMIT=60] -->
   <string name="type_outgoing_volte">外拨4G语音通话</string>
   <!-- Title for incoming 4G video call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_outgoing_volte_video">传出 4 G 视频通话</string>
   <!-- Title for missed 4G voice call in call details screen [CHAR LIMIT=60] -->
   <string name="type_missed_volte">未接4G语音通话</string>
   <!-- Title for missed 4G video call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_missed_volte_video">未接4 G 视频来电</string>
   <!-- Title for voicemail details screen -->
   <string name="type_voicemail">语音信箱</string>
   <!-- Description for incoming calls going to voice mail vs. not -->
@@ -355,7 +360,9 @@
   <!-- String resource for the font-family to use for the full call history footer
          Do not translate. -->
   <!-- Text displayed when the list of incoming calls is empty -->
+  <string name="recentIncoming_empty">你没有来电。</string>
   <!-- Text displayed when the list of outgoing calls is empty -->
+  <string name="recentOutgoing_empty">你没有传出的呼叫。</string>
   <!-- Text displayed when the list of missed calls is empty -->
   <string name="recentMissed_empty">您没有任何未接电话。</string>
   <!-- Text displayed when the list of voicemails is empty -->
@@ -598,6 +605,8 @@
   <string name="permission_place_call">要拨打电话，\n请开启“电话”权限。</string>
   <!-- Shown as a message that notifies the user that the Phone app cannot write to system settings, which is why the system settings app is being launched directly instead.-->
   <string name="toast_cannot_write_system_settings">电话应用不具备写入系统设置的权限。</string>
+  <string name="call_log_show_all_slots">所有 SIM 卡</string>
+  <string name="call_log_all_calls_header">所有呼叫</string>
   <string name="calllog_search_hint">"搜索通话记录"</string>
   <string name="add_to_white_list">加入白名单</string>
   <string name="add_to_black_list">加入黑名单</string>
@@ -617,4 +626,10 @@
   <string name="input_number">输入号码</string>
   <string name="speed_dial_cancel">取消</string>
   <string name="speed_dial_ok">确定</string>
+  <string name="call_data_info_label">电话/数据使用计时器</string>
+  <string name="call_data_info_description">语音呼叫使用时间和数据的使用时间</string>
+  <string name="alert_call_over_wifi">通过 Wi-fi 进行呼叫。</string>
+  <string name="alert_call_no_cellular_coverage">没有可用的蜂窝网络。连接到可用的无线网络上网拨打电话。</string>
+  <string name="alert_user_connect_to_wifi_for_call">连接到 Wifi 网络进行通话。</string>
+  <string name="video_call">视频通话</string>
 </resources>
